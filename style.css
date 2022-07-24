@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+    background-image: linear-gradient(180deg, #6ab7f5, #fff);
+    font: 400 1em "Arial", sans-serif;
+    font-size: clamp(1em, 5vw, 1em);
+    text-align: center;
+}   
+
+main
+{
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    
+}
+
+img.search-book__pokemon
+{
+    width: 100%;
+    max-width: 500px;
+}
+
+img.image__pokemon
+{
+    display: block;
+    position: absolute;
+    top: 33%;
+    left: 36.5%;
+    width: 17%;
+}
+
+div.info__pokemon
+{
+    position: absolute;
+    right: 27%;
+    bottom: 41%;
+    max-width: 80%;
+    color: #afafaf;
+    font-size: clamp(1em, 5vw, 1.5em);
+    text-align: right;
+    text-transform: capitalize;
+}
+
+span.name__pokemon
+{
+    font-weight: 600;
+}
+
+form.form
+{
+    position: absolute;
+    width: 65%;
+    left: 13.5%;
+    bottom: 27%;
+}
+
+input.search__pokemon
+{
+    width: 100%;
+    padding: 5%;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3px 3px #afafaf, -5px 5px #333;
+    font-size: clamp(0.8em, 3vw, 1.5em);
+    color: #555;
+}
+
+    input.search__pokemon::placeholder
+    {
+        color: #aaa;
+        font-size: clamp(.5em, 3vw, 1em);
+    }
+
+div.buttons
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 82%;
+    bottom: 15%;
+}
+
+.btn
+{
+
+    background-color: white;
+    box-shadow: -2px 2px #afafaf, -3px 4px #333;
+    font-size: clamp(.9em, 5vw, 1em);
+    font-weight: 600;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+    .btn:active
+    {
+        box-shadow: inset -3px 3px #888, -2px 3px #333;
+        font-size: clamp(.95em, 1vw, .97em);
+        color: #333 !important;
+    }
+
+    .btn:focus
+    {
+        color: black;
+    }
+
