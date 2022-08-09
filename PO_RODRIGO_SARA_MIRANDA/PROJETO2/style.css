@@ -1,0 +1,12 @@
+header
+{
+    background: #000;
+    color: white;
+}
+#img-header
+{
+    position: absolute;
+    background-attachment: fixed;
+    opacity: 50%;
+    background: #000;
+}

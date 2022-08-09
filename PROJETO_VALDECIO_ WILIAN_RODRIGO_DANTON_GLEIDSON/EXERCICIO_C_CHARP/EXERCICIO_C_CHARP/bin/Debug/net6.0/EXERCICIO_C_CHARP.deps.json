@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EXERCICIO_C_CHARP/1.0.0": {
+        "runtime": {
+          "EXERCICIO_C_CHARP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EXERCICIO_C_CHARP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

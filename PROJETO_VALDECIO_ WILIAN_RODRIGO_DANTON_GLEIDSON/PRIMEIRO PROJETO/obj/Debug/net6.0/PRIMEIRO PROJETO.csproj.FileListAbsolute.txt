@@ -1,0 +1,15 @@
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\bin\Debug\net6.0\PRIMEIRO PROJETO.exe
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\bin\Debug\net6.0\PRIMEIRO PROJETO.deps.json
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\bin\Debug\net6.0\PRIMEIRO PROJETO.runtimeconfig.json
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\bin\Debug\net6.0\PRIMEIRO PROJETO.dll
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\bin\Debug\net6.0\PRIMEIRO PROJETO.pdb
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.AssemblyInfo.cs
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.dll
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\refint\PRIMEIRO PROJETO.dll
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.pdb
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\PRIMEIRO PROJETO.genruntimeconfig.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO\PRIMEIRO PROJETO\obj\Debug\net6.0\ref\PRIMEIRO PROJETO.dll

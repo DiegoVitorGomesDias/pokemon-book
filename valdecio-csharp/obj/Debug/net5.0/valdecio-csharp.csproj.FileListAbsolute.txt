@@ -1,0 +1,16 @@
+C:\Users\Alunos\Documents\valdecio-csharp\bin\Debug\net5.0\valdecio-csharp.exe
+C:\Users\Alunos\Documents\valdecio-csharp\bin\Debug\net5.0\valdecio-csharp.deps.json
+C:\Users\Alunos\Documents\valdecio-csharp\bin\Debug\net5.0\valdecio-csharp.runtimeconfig.json
+C:\Users\Alunos\Documents\valdecio-csharp\bin\Debug\net5.0\valdecio-csharp.runtimeconfig.dev.json
+C:\Users\Alunos\Documents\valdecio-csharp\bin\Debug\net5.0\valdecio-csharp.dll
+C:\Users\Alunos\Documents\valdecio-csharp\bin\Debug\net5.0\valdecio-csharp.pdb
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.AssemblyInfo.cs
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.dll
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\refint\valdecio-csharp.dll
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.pdb
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\valdecio-csharp.genruntimeconfig.cache
+C:\Users\Alunos\Documents\valdecio-csharp\obj\Debug\net5.0\ref\valdecio-csharp.dll

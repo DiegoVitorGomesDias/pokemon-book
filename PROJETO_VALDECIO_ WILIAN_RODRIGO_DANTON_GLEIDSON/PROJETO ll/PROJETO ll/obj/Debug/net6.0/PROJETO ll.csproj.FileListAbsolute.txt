@@ -1,0 +1,15 @@
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.AssemblyInfo.cs
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\bin\Debug\net6.0\PROJETO ll.exe
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\bin\Debug\net6.0\PROJETO ll.deps.json
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\bin\Debug\net6.0\PROJETO ll.runtimeconfig.json
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\bin\Debug\net6.0\PROJETO ll.dll
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\bin\Debug\net6.0\PROJETO ll.pdb
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.dll
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\refint\PROJETO ll.dll
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.pdb
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\PROJETO ll.genruntimeconfig.cache
+C:\Users\Alunos\Documents\PROJETO_VALDECIO_ WILIAN_RODRIGO_DANTON_GLEIDSON\PROJETO ll\PROJETO ll\obj\Debug\net6.0\ref\PROJETO ll.dll
