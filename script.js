@@ -9,18 +9,11 @@ const next__pokemon = document.querySelector('.btn-right');
 
 let id__pokemon = 1;
 
-const fecht__pokemon__api = async (name__pokemon = "erro") =>
+const fecht__pokemon__api = async (name__pokemon = "error") =>
 {
-    const respost = await fetch(`https://pokeapi.co/api/v2/pokemon/${name__pokemon}`);
-
-    if(respost.status == 200)
-    {
-        const pokemon_json = await respost.json();
-        return pokemon_json;
-    }
-
-    console.clear();
-    return "error";
+    return await fetch(`https://pokeapi.co/api/v2/pokemon/${name__pokemon}`)
+    .then( (data) => data ).then( async (data) => await data.json() )
+    .catch( (err) => "error" )
 }
 
 const handle__pokemon = async (name__pokemon) =>
@@ -31,91 +24,56 @@ const handle__pokemon = async (name__pokemon) =>
 
     name__pokemon = name__pokemon.toString().trim().replace(/^0+(?=\d)/, '').toLocaleLowerCase();
     name__pokemon = name__pokemon == "" ? id__pokemon : name__pokemon;
-    const pokemon = await fecht__pokemon__api(name__pokemon);
-    
-    if(pokemon != "error")
+
+    await fecht__pokemon__api(name__pokemon)
+    .then( (pokemon) => 
     {
         id__pokemon = pokemon.id;
         pokemon__id.innerHTML = pokemon.id;
         pokemon__name.innerHTML = pokemon.name;
+        pokemon__image.setAttribute("alt", pokemon.name)
+        pokemon__image.setAttribute("title", pokemon.name)
         pokemon__image.style.display = "block";
         
-        if(pokemon["sprites"]["versions"]["generation-v"]["black-white"]["animated"]["front_default"])
-        {
-            pokemon__image.src = pokemon["sprites"]["versions"]["generation-v"]["black-white"]["animated"]["front_default"];
-        }
-        else if(pokemon["sprites"]["versions"]["generation-v"]["black-white"]["front_default"])
-        {
-            pokemon__image.src = pokemon["sprites"]["versions"]["generation-v"]["black-white"]["front_default"];
-        }
-        else
-        {
-            pokemon__image.style.display = "none";
-        }
+        pokemon__image.src = 
+            pokemon["sprites"]["versions"]["generation-v"]["black-white"]["animated"]["front_default"]
+            ? pokemon["sprites"]["versions"]["generation-v"]["black-white"]["animated"]["front_default"]
+            : pokemon["sprites"]["versions"]["generation-v"]["black-white"]["front_default"]
+        ;
 
-        if(pokemon__name.textContent.length > 19)
-        {
-            pokemon__info.style.fontSize = "clamp(0.1em, 4vw, 1.2em)";
-        }
-    }
-    else
+        if(pokemon__name.textContent.length > 10) pokemon__info.style.fontSize = "clamp(0.1em, 4vw, 1.2em)";
+    })
+    .catch( () => 
     {
         pokemon__id.innerHTML = "";
         pokemon__name.innerHTML = "não encontrado";
         pokemon__image.style.display = "none";
-    }
-    
-    input__pokemon.value = "";
-    input__pokemon.focus();
-        
+    })
+    .finally( () =>  
+    {
+        input__pokemon.value = "";
+        input__pokemon.focus();
+    })
 }
 
-form__pokemon.addEventListener("submit", (e) =>
-{
-    e.preventDefault();
-    handle__pokemon(input__pokemon.value);
-})
+form__pokemon.addEventListener("submit", (e) => { e.preventDefault(); handle__pokemon(input__pokemon.value); })
 
 prev__pokemon.addEventListener("click", prev = () =>
 {
-    if(id__pokemon > 1)
-    {
-        id__pokemon --;
-        handle__pokemon(id__pokemon);
-    }
+    if(id__pokemon > 1) { id__pokemon --; handle__pokemon(id__pokemon); }
 })
 
 next__pokemon.addEventListener("click", next = () =>
 {
-    if(id__pokemon <= 905)
-    {
-        id__pokemon ++;
-        handle__pokemon(id__pokemon);
-    }
+    if(id__pokemon <= 905) { id__pokemon ++; handle__pokemon(id__pokemon); }
 })
 
 document.body.addEventListener("keydown", (e) =>
 {
-    /* console.log(e.code); */
-    if(document.activeElement.name != "search__pokemon" || document.activeElement.value == "")
-    {
-        switch (e.code) 
-        {
-            case "ArrowRight": next(); break;
-            case "ArrowLeft": prev(); break;
-            case "ArrowUp": next(); break;
-            case "ArrowDown": prev(); break;
-            case "Space": input__pokemon.focus(); break;
-        }
-    }
-    else
-    {
-        switch (e.code) 
-        {
-            case "ArrowUp": next(); break;
-            case "ArrowDown": prev(); break;
-        }
-    }
+    e.code === "ArrowUp" ? next() : e.code === "ArrowDown" ? prev() : false;
+
+    if(document.activeElement.name !== "search__pokemon" || input__pokemon.value === "")
+    e.code === "ArrowRight" ? next() : e.code === "ArrowLeft" ? prev() : input__pokemon.focus();
 })
 
 handle__pokemon(id__pokemon);
